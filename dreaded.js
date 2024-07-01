@@ -232,11 +232,11 @@ if (budy.startsWith('>')) {
 
 	   async function loady () {
 var lod = [
-"i am Anjan_ai",
-"created by Anjan-ser",
-"follow the below steps to deploy me",
-"Contact owner after deploying",
-	"𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐖𝐚𝐢𝐭𝐢𝐧𝐠 😁 "
+" *i am Anjan_ai*",
+" *created by Anjan-ser*",
+" *follow the below steps to deploy me*",
+" *Contact owner after deploying*",
+	"𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐖𝐚𝐢𝐭𝐢𝐧𝐠  "
 ]
 let { key } = await client.sendMessage(from, {text: '𝐈 𝐚𝐦 𝐀𝐧𝐣𝐚𝐧_𝐚𝐢'})
 
@@ -248,11 +248,11 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 	  
 	   async function load () {
 var lod = [
-"i am Anjan_ai",
-"created by anjan-ser",
-"have fun with the bot",
-"type .sc to access my source code",
-	"𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐖𝐚𝐢𝐭𝐢𝐧𝐠 😁 "
+" *i am Anjan_ai*",
+" *created by anjan-ser*",
+" *have fun with the bot*",
+" *type .sc to access my source code*",
+	"𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐖𝐚𝐢𝐭𝐢𝐧𝐠  "
 ]
 let { key } = await client.sendMessage(from, {text: '𝐈 𝐚𝐦 𝐀𝐧𝐣𝐚𝐧_𝐚𝐢'})
 
@@ -582,7 +582,7 @@ break;
 case "p": case "t": {
 	await loadings ()
 for (let i = 0; i < 5; i++) {
-  m.reply(`⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n *${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
+  m.reply(` *⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓${dreadedspeed.toFixed(4)} 𝐌𝐬*`);
   }
 } 
 break;
@@ -1920,14 +1920,14 @@ break;
 case "bot": 
 
 	await load ()
-                 client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/d0332c01f0dd8c3381dc0.mp4' }, caption: `▔▔▔▔▔╠ ⛥𝗕𝗢𝗧 𝗜𝗡𝗙𝗢⛥ ╣▔▔▔▔▔\n◉𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐚𝐦𝐞 : *⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓*\n◎𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐮𝐦𝐛𝐞𝐫 : *wa.me/919883457657*\n◉𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : *⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓*\n◎𝐒𝐩𝐞𝐞𝐝 : *${dreadedspeed.toFixed(4)}* 𝐌𝐬\n◉𝐔𝐬𝐞𝐫 : ${m.pushName}\n◎𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : *1.0.1*\n◉𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n◎𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}\n◉𝐓𝐲𝐩𝐞 𝐁𝐚𝐲𝐥𝐢𝐞𝐬 : 𝗖𝗮𝘀𝗲\n◎𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : *https://github.com/Master-hacker-india/MASTER-MIND-V3*\n◉𝐔𝐩𝐭𝐢𝐦𝐞 : ⏳ *${runtime(process.uptime())}*\n\n▭▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭\n    ⭓𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭▬`,gifPlayback: true }, { quoted: fcontact });
+                 client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/HhMMrfv.mp4' }, caption: `▔▔▔▔▔╠ ⛥𝗕𝗢𝗧 𝗜𝗡𝗙𝗢⛥ ╣▔▔▔▔▔\n◉𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐚𝐦𝐞 : *⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓*\n◎𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐮𝐦𝐛𝐞𝐫 : *wa.me/919883457657*\n◉𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : *⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓*\n◎𝐒𝐩𝐞𝐞𝐝 : *${dreadedspeed.toFixed(4)}* 𝐌𝐬\n◉𝐔𝐬𝐞𝐫 : ${m.pushName}\n◎𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : *1.0.1*\n◉𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n◎𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}\n◉𝐓𝐲𝐩𝐞 𝐁𝐚𝐲𝐥𝐢𝐞𝐬 : 𝗖𝗮𝘀𝗲\n◎𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : *https://github.com/Master-hacker-india/MASTER-MIND-V3*\n◉𝐔𝐩𝐭𝐢𝐦𝐞 : ⏳ *${runtime(process.uptime())}*\n\n▭▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭\n    ⭓𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭▬`,gifPlayback: true }, { quoted: fcontact });
 
 break;
 
 case "ping": case "speed": { 
 
 	await loadings ()
-m.reply (`⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓*${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
+m.reply (` *⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓${dreadedspeed.toFixed(4)} 𝐌𝐬*`);
    } 
  break; 
   
