@@ -104,7 +104,7 @@ const admin = process.env.ADMIN_MSG || '𝐇𝐮𝐡!\n𝐀𝐝𝐦𝐢𝐦𝐬 
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐈𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐛*𝐭𝐜𝐡'
     const NotOwner = process.env.NOT_OWNER_MSG || '𝐎𝐰𝐧𝐞𝐫 𝐨𝐧𝐥𝐲 🗿';
 const wapresence = process.env.WA_PRESENCE || 'recording';
-const antilink = process.env.ANTILINK || 'FALSE';
+const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 const runtime = function (seconds) { 
@@ -279,11 +279,11 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 var lod = [
 "「▰▰▰▱▱▱▱▱▱▱」",
 "「▰▰▰▰▰▰▱▱▱▱」",
-"「▰▰▰▰▰▰▰▰▰▰」",
-        "♡ welc๏፝֟ɱ𝛆̽⎯꯭̽ ³",	
+"「▰▰▰▰▰▰▰▰▱▱」",
+        "「▰▰▰▰▰▰▰▰▰▰」",	
 "⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓"
 ]
-let { key } = await client.sendMessage(from, {text: '𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐝𝐫𝐞𝐱! 😬...'})
+let { key } = await client.sendMessage(from, {text: '⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
