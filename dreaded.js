@@ -587,9 +587,9 @@ for (let i = 0; i < 5; i++) {
 } 
 break;
 		      
-case 'gan': {
+case 'play': {
   if (!text) {
-    reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: gan tum se')
+    reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: play tum se')
     return;
   }
   try {
@@ -679,7 +679,7 @@ reply(resultt.stderr)
 
 break;
 
-case "drex": 
+case "master": 
 case "ai":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
@@ -754,7 +754,7 @@ function _0x2de4() {
         '\x20and\x20Chrom',
         'AgaVJ',
         '6jOniet',
-        '𝐃𝐑𝐄𝐗 𝐁𝐎𝐓',
+        '𝐁𝐎𝐓',
         '20KZWKYf',
         '\x20needs\x20som',
         'gPDEf',
@@ -1267,7 +1267,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/Oqa8xcK.jpeg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ using the GitHub link below🗿\n\nFork and give us a star✨.\n\n https://github.com/Master-hacker-india/MASTER-MIND-V3\n\nEnjoy and have fun with the bot🗿...\n\nType ${prefix}how can help u\n\n           Made on Earth by 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⸼` });
+`> 👋🏻 Hi *${pushname}*,You can deploy ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ using the GitHub link below🗿\n\n> Fork and give us a star✨.\n\n> https://github.com/Master-hacker-india/MASTER-MIND-V3\n\n> Enjoy and have fun with the bot🗿...\n\n> Type ${prefix}how can help u\n\n> Made on Earth by 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⸼` });
 
    break;
                                                   
@@ -1643,10 +1643,10 @@ break;
     } 
   
 break
-  case 'play':
+  case 'gan':
     case 'song': {
         if (!text) {
-            reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: 𝙿𝚕𝚊𝚢 tum se')
+            reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: song tum se')
             return;
         }
         try {
@@ -2055,7 +2055,7 @@ case "movie":
               let fids = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${text}&plot=full`);  
               let imdbt = "";  
               console.log(fids.data)  
-              imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` IMDB MOVIE SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";  
+              imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` MOVIE SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";  
               imdbt += "🎬Title      : " + fids.data.Title + "\n";  
               imdbt += "📅Year       : " + fids.data.Year + "\n";  
               imdbt += "⭐Rated      : " + fids.data.Rated + "\n";  
@@ -2095,7 +2095,11 @@ case "movie":
  break;
  
       case "anjan": case "owner": case "master-mind": 
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/6b0e00c0fbd44e475b5a0.mp4' }, caption: `𝐇𝐞𝐫𝐞 𝐢𝐬 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫, +919883457657 (>ᴗ•)` }, {quoted: m}); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/HhMMrfv.mp4' }, caption: `> 𝐌𝐲 𝐨𝐰𝐧𝐞𝐫 𝐢𝐬 𝐀𝐧𝐣𝐚𝐧-𝐒𝐞𝐫
+
+> 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 :- +𝟗𝟏𝟗𝟖𝟖𝟑𝟒𝟓𝟕𝟔𝟓𝟕
+
+> ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓` }, {quoted: m}); 
   
  break;
        
@@ -2274,7 +2278,7 @@ async function getConversation() {
 
 // Handler for the "gpt" or "g" case
 async function handleGPTMessage(text, m) {
-  if (!text) return m.reply("Hello am 𝐃𝐑𝐄𝐗 an Ai developed by 𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼, how can I help you today?");
+  if (!text) return m.reply("Hello am  an Ai developed by 𝕯⃟𝘁⃟ꦿ⸼, how can I help you today?");
 
   const configuration = new Configuration({
     apiKey: setting,
