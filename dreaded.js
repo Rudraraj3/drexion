@@ -2044,7 +2044,7 @@ client.sendMessage(from, buttonMessage, { quoted: m })
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `*𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐝 𝐛𝐲 𝐃𝐑𝐄𝐗_𝐀𝐈🗿*`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `*𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐝 𝐛𝐲 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓🗿*`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -2094,8 +2094,8 @@ case "movie":
              } 
  break;
  
-      case "drex": case "owner": case "mose": 
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/6b0e00c0fbd44e475b5a0.mp4' }, caption: `𝐇𝐞𝐫𝐞 𝐢𝐬 𝐦𝐲 𝐇𝐚𝐧𝐝𝐬𝐨𝐦𝐞 𝐎𝐰𝐧𝐞𝐫, +254102074064 (>ᴗ•)🤭` }, {quoted: m}); 
+      case "anjan": case "owner": case "master-mind": 
+ client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/6b0e00c0fbd44e475b5a0.mp4' }, caption: `𝐇𝐞𝐫𝐞 𝐢𝐬 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫, +919883457657 (>ᴗ•)` }, {quoted: m}); 
   
  break;
        
