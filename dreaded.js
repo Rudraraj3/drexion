@@ -49,7 +49,7 @@ const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
 const botname = process.env.BOTNAME || 'DREX AI';
-const antibot = process.env.ANTIBOT || 'FALSE';
+const antibot = process.env.ANTIBOT || 'TRUE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
@@ -79,19 +79,19 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐃𝐑𝐄𝐗_𝐀𝐈';
-    const packname = process.env.STICKER_PACKNAME || 'Drex';
-const dev = process.env.DEV || '254102074064'
+    const author = process.env.STICKER_AUTHOR ||'⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓';
+    const packname = process.env.STICKER_PACKNAME || 'Aɳʝαɳ-ʂҽɾ';
+const dev = process.env.DEV || '919883457657'
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
-    const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
+    const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
    const bad = process.env.BAD_WORD || 'fuck';
     const autoread = process.env.AUTOREAD || 'TRUE';
     const badword = bad.split(",");
     const thum = fs.readFileSync ('./𝐃𝐑𝐄𝐗_𝐀𝐈.jpg');	  
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender);
     const viewOnceMessage = args.join(" ");
-    const fcontact = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `𝐃𝐑𝐄𝐗 𝐁𝐎𝐓`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;DrexBot,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/00c44dbca471eff754425.png' }}}}
+    const fcontact = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;DrexBot,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://i.imgur.com/Oqa8xcK.jpeg' }}}}
        // Group
     const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
     const groupName = m.isGroup && groupMetadata ? await groupMetadata.subject : "";
@@ -192,7 +192,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝐃𝐑𝐄𝐗 𝐁𝐎𝐓\x20an',
+        '𝐁𝐎𝐓\x20an',
         '376590puyzhN',
         'key'
     ];
@@ -232,8 +232,8 @@ if (budy.startsWith('>')) {
 
 	   async function loady () {
 var lod = [
-"i am drex_ai",
-"cloned by drex mose",
+"i am Anjan_ai",
+"created by Anjan-ser",
 "follow the below steps to deploy me",
 "Contact owner after deploying",
 	"𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐖𝐚𝐢𝐭𝐢𝐧𝐠 😁 "
@@ -248,8 +248,8 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 	  
 	   async function load () {
 var lod = [
-"i am drex_ai",
-"cloned by drex mose",
+"i am Anjan_ai",
+"created by anjan-ser",
 "have fun with the bot",
 "type .sc to access my source code",
 	"𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐖𝐚𝐢𝐭𝐢𝐧𝐠 😁 "
@@ -263,12 +263,12 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 
 	   async function loadings () {
 var lod = [
-"⭓",
-"⬬",	
-	"𝙿𝙸𝙽𝙶𝙸𝙽𝙶 ◍ ◉ ⭗ "
+"「▰▰▰▱▱▱▱▱▱▱」",
+"「▰▰▰▰▰▰▰▰▰▰」",	
+	"⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓"
 	
 ]
-let { key } = await client.sendMessage(from, {text: '⭓𝐏𝐨𝐧𝐠'})
+let { key } = await client.sendMessage(from, {text: '⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
@@ -277,11 +277,11 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 	  
 	  async function loading () {
 var lod = [
-"😁",
-"😎",
-"🤬",
-        "🗿",	
-"⭓𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐝𝐫𝐞𝐱! 😬"
+"「▰▰▰▱▱▱▱▱▱▱」",
+"「▰▰▰▰▰▰▱▱▱▱」",
+"「▰▰▰▰▰▰▰▰▰▰」",
+        "♡ welc๏፝֟ɱ𝛆̽⎯꯭̽ ³",	
+"⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓"
 ]
 let { key } = await client.sendMessage(from, {text: '𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐝𝐫𝐞𝐱! 😬...'})
 
@@ -409,9 +409,9 @@ case "help":
 
 		      await loading ()
 
-let cap = `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣
+let cap = `╭════〘 ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ 〙═⊷⏣
 ┃⭓╭──────────────┉◕
-┃⬬│ 𝗢𝘄𝗻𝗲𝗿 :𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼
+┃⬬│ 𝗢𝘄𝗻𝗲𝗿 :⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓
 ┃⭓│ 𝗨𝘀𝗲𝗿 : ${m.pushName}︎︎
 ┃⬬│ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :${runtime(process.uptime())}
 ┃⭓│ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝐋𝐢𝐧𝐮𝐱
@@ -422,7 +422,7 @@ let cap = `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣
 ┃⬬│
 ┃⭓│▎▍▌▌▉▏▎▌▉▐▏▌
 ┃⬬│▎▍▌▌▉▏▎▌▉▐▏▌
-┃⭓│ ⬬𝐃𝐑𝐄𝐗_𝐀𝐈⭓
+┃⭓│ ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓
 ┃⛥│
 ┃╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉⏣
 ╰─────────────────⏣
@@ -469,6 +469,7 @@ let cap = `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣
 ┃⭓│${prefix}𝐋𝐲𝐫𝐢𝐜𝐬.
 ┃⭓│${prefix}𝐌𝐨𝐯𝐢𝐞.
 ┃⭓│${prefix}𝐌𝐢𝐱.
+┃⭓│${prefix}𝐠𝐚𝐧.
 ┬⛥│
 │╰─────────────────⏣
 ╰══════════════════⊷⏣
@@ -477,7 +478,7 @@ let cap = `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣
 ▯╭┄┄┄┄┄┄┄┄···◕
 ┴⬬│
 ┃⬬│${prefix}𝐀𝐢.
-┃⬬│${prefix}𝐃𝐫𝐞𝐱.                                                                                                                                                                                                                                                                                
+┃⬬│${prefix}𝐀𝐧𝐣𝐚𝐧.                                                                                                                                                                                                                                                                                
 ┃⬬│${prefix}𝐆𝐩𝐭.
 ┃⬬│${prefix}𝐆.
 ┃⬬│${prefix}𝐈𝐦𝐠.
@@ -512,18 +513,7 @@ let cap = `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣
 ┃⬬│${prefix}𝐈𝐧𝐛𝐨𝐱.
 ┃⬬│${prefix}𝐐𝐮𝐨𝐭𝐞𝐥𝐲.
 ┃⬬│${prefix}𝐒𝐜𝐫𝐢𝐩𝐭.
-┃⬬│${prefix}𝐌𝐨𝐬𝐞.
 ┃⬬│${prefix}𝐒𝐜.
-┃⬬│${prefix}𝐒𝐲𝐬𝐭𝐞𝐦.
-┃⬬│${prefix}𝐂𝐫𝐞𝐝𝐢𝐭𝐬.
-┬⛥│
-│╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
-╰══════════════════⊷⏣
-
-╭════✘⭓𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧⭓✘════⊷⏣
-▯╭┄┄┄┄┄┄┄┄┄┄┄···◕
-┃⭓│${prefix}𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥.
-┃⭓│${prefix}𝐃𝐞𝐩𝐥𝐨𝐲.
 ┬⛥│
 │╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
 ╰══════════════════⊷⏣
@@ -550,7 +540,7 @@ let cap = `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣
 ┃⭓│${prefix}𝐑𝐞𝐯𝐨𝐤𝐞.
 ┃⭓│
 ┃⭓╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
-┃➠    ▒▓𝐌𝐚𝐝𝐞 𝐁𝐲 ✞⃟❐͜͡𝕯Я𝚺✘ ⃟ۣቾ ᭄ ࣩࣧࣧ▓▒ 
+┃➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓
 ╰════════════════⊷⏣`;
 
 if (menu === 'VIDEO') {
@@ -566,7 +556,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: fcontact})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/53077a0e00d6bda32a46b.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: fcontact })
+client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/g2i6Xwz.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: fcontact })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -576,7 +566,7 @@ client.sendMessage(m.chat, {
                                 title: `𝐃𝐑𝐄𝐗_𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./𝐃𝐑𝐄𝐗_𝐀𝐈.jpg'),
-                                sourceUrl: 'https://wa.me/254102074064?text=ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏+Nihostie+Bot+Mkuu+🥲',
+                                sourceUrl: 'http://wa.me/+919883457657?text= *🕯️ι αм νιѕιтιηg уσυя мαѕтєя мιη∂ ν3 вσт ιѕ αωѕσмє вяσнн🚀*',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -592,18 +582,18 @@ break;
 case "p": case "t": {
 	await loadings ()
 for (let i = 0; i < 5; i++) {
-  m.reply(`⭓𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
+  m.reply(`⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n *${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
   }
 } 
 break;
 		      
-case 'play2': {
+case 'gan': {
   if (!text) {
-    reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: 𝙿𝚕𝚊𝚢 𝚂𝚑𝚞𝚜𝚑𝚊 𝙽𝚢𝚊𝚟𝚞 𝚋𝚢 𝙲𝚑𝚛𝚒𝚜𝚝𝚒𝚗𝚊 𝚂𝚞𝚜𝚑𝚘')
+    reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: gan tum se')
     return;
   }
   try {
-    reply('𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐚𝐮𝐝𝐢𝐨...')
+    reply('⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓')
     const { videos } = await yts(text);
     if (!videos || videos.length <= 0) {
       reply(`No Matching videos found for : *${args[0]}*!!`)
@@ -642,7 +632,7 @@ case 'play2': {
         from, {
           audio: fs.readFileSync(`./${randomName}`),
           mimetype: "audio/mpeg",
-          caption: "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐃𝐑𝐄𝐗"
+          caption: "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓"
         }, {
           quoted: fcontact
         }
@@ -813,7 +803,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `©𝐝𝐫𝐞𝐱_𝐦𝐨𝐬𝐞⸙`
+                    author: `⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓⸙`
                 })
 
 } catch (errr) { 
@@ -1263,7 +1253,7 @@ try {
  if (users  == client.decodeJid(client.user.id)) throw 'Bot cannot remove itself 😡';
  if (users == Owner) { m.reply('Its owner number')}; 
                  await client.groupParticipantsUpdate(m.chat, users, 'remove'); 
-await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 𝐝𝐫𝐞𝐱_𝐚𝐢😬'); 
+await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿'); 
 } catch (errr) { 
  await reply("𝐇𝐮𝐡!\n 𝐎𝐧𝐞 𝐨𝐟 𝐮𝐬 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐡𝐞𝐫𝐞🌚")}
 
@@ -1276,8 +1266,8 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
 
  case 'sc': case 'script': case 'repo':
 
- client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/53077a0e00d6bda32a46b.jpg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 using the GitHub link below🗿\n\nFork and give us a star✨.\n\n https://github.com/drexmose/drex-ai\n\nEnjoy and have fun with the bot🗿...\n\nUse the link below to pair 𝐃𝐑𝐄𝐗_𝐀𝐈 without scanning any qr code\n\n [https://replit.com/@darkintent120/Pairing-drex9]\n\nType ${prefix}Tutorial and follow the steps if you dont know how to deploy the bot\n\n           Made on Earth by 𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼` });
+ client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/Oqa8xcK.jpeg` }, caption: 
+`👋🏻 Hi *${pushname}*,You can deploy ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ using the GitHub link below🗿\n\nFork and give us a star✨.\n\n https://github.com/Master-hacker-india/MASTER-MIND-V3\n\nEnjoy and have fun with the bot🗿...\n\nType ${prefix}how can help u\n\n           Made on Earth by 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⸼` });
 
    break;
                                                   
@@ -1501,22 +1491,22 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
  pp2 = 'https://tinyurl.com/yx93l6da'; 
  } 
   if (!m.quoted && !m.mentionedJid) throw `Tag a user!`; 
- bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 of ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓`; 
+ bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 of ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓`; 
  client.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: fcontact}); 
  } 
  break;
 
 case "list":
-              client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/b3d43934af51c7460775f.mp4' }, caption: `╭════〘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 〙═⊷⏣\n┃⭓╭──────────────┉◕\n┃⬬│ 𝗢𝘄𝗻𝗲𝗿 :𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼\n┃⭓│ 𝗨𝘀𝗲𝗿 : ${m.pushName}︎︎\n┃⬬│ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :${runtime(process.uptime())}\n┃⭓│ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝐋𝐢𝐧𝐮𝐱\n┃⬬│ 𝗥𝗮𝗺 : 64GB of 256GB\n┃⭓│ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟏.𝟎.𝟏\n┃⬬│ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}\n┃⭓│ 𝗦𝗽𝗲𝗲𝗱 :  *${dreadffedspeed.toFixed(4)}* 𝐌𝐬\n┃⬬│\n┃⭓│▎▍▌▌▉▏▎▌▉▐▏▌\n┃⬬│▎▍▌▌▉▏▎▌▉▐▏▌\n┃⭓│ ⬬𝐃𝐑𝐄𝐗_𝐀𝐈⭓\n┃⛥│\n┃╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉⏣\n╰─────────────────⏣\n\n✘𝐀𝐝𝐦𝐢𝐧 ➫ 𝐎𝐰𝐧𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐰𝐡𝐢𝐜𝐡 𝐩𝐫𝐨𝐦𝐨𝐭𝐞𝐬 𝐡𝐢𝐦 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐰𝐡𝐞𝐧 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧.\n\n ✘𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ➫ 𝐎𝐰𝐧𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐭𝐨 𝐬𝐡𝐚𝐫𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐚𝐭 𝐨𝐧𝐜𝐞 𝐢𝐧 𝐦𝐚𝐧𝐲 𝐜𝐡𝐚𝐭𝐬.\n\n ✘𝐉𝐨𝐢𝐧 ➫ 𝐓𝐡𝐞 𝐛𝐨𝐭 𝐣𝐨𝐢𝐧𝐬 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐰𝐡𝐞𝐧 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐝 𝐯𝐚𝐥𝐢𝐝 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤.\n\n ✘𝐁𝐨𝐭𝐩𝐩 ➫  𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐭𝐡𝐞 𝐩𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐛𝐨𝐭.\n\n ✘𝐒𝐞𝐭𝐯𝐚𝐫 ➫ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐡𝐞𝐫𝐨𝐤𝐮 𝐕𝐚𝐫𝐬.\n\n ✘𝐁𝐥𝐨𝐜𝐤 ➫ 𝐁𝐥𝐨𝐜𝐤𝐬 𝐭𝐡𝐞 𝐭𝐚𝐠𝐠𝐞𝐝 𝐮𝐬𝐞𝐫.\n\n ✘𝐊𝐢𝐥𝐥 ➫ 𝐓𝐡𝐞 𝐛𝐨𝐭 𝐰𝐢𝐥𝐥 𝐞𝐧𝐝 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐰𝐢𝐭𝐡𝐢𝐧 5 𝐬𝐞𝐜𝐬.\n\n ✘𝐑𝐞𝐬𝐭𝐚𝐫𝐭 ➫ 𝐁𝐨𝐭 𝐫𝐞𝐬𝐭𝐚𝐫𝐭𝐬.\n\n ✘𝐒𝐭𝐢𝐜𝐤𝐞𝐫 ➫ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐠𝐢𝐟𝐬, 𝐯𝐢𝐝𝐞𝐨𝐬 𝐨𝐫 𝐩𝐡𝐨𝐭𝐨𝐬 𝐢𝐧𝐭𝐨 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬.\n\n ✘𝐓𝐨𝐢𝐦𝐠 ➫ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨. ✘𝐒𝐦𝐞𝐦𝐞 ➫ 𝐀𝐝𝐝𝐬 𝐜𝐚𝐩𝐭𝐢𝐨𝐧 𝐭𝐨 𝐭𝐡𝐞 𝐪𝐮𝐨𝐭𝐞𝐝 𝐢𝐦𝐚𝐠𝐞 𝐭𝐡𝐞𝐧 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐢𝐭 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫.\n\n 𝐔𝐫𝐥 ➫ 𝐏𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨/𝐢𝐦𝐚𝐠𝐞 𝐥𝐢𝐧𝐤.\n\n ✘𝐑𝐞𝐦𝐢𝐧𝐢 ➫ 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐭𝐨 𝐡𝐝.\n\n ✘𝐐𝐜 ➫ 𝐂𝐨𝐧𝐜𝐞𝐫𝐭𝐬 𝐚 𝐪𝐮𝐨𝐭𝐞𝐝 𝐭𝐞𝐱𝐭 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫.\n\n ✘𝐏𝐥𝐚𝐲 ➫ 𝐁𝐨𝐭 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐚 𝐬𝐨𝐧𝐠 𝐢𝐧 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 𝐟𝐨𝐫𝐦.\n\n ✘𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠 ➫ 𝐓𝐡𝐞 𝐛𝐨𝐭 𝐝𝐞𝐭𝐞𝐜𝐭𝐬 𝐭𝐡𝐞 𝐪𝐮𝐨𝐭𝐞𝐝 𝐯𝐢𝐝𝐞𝐨/𝐚𝐮𝐝𝐢𝐨𝐬 𝐪𝐮𝐚𝐥𝐢𝐭𝐢𝐞𝐬 𝐚𝐧𝐝 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐭𝐡𝐞𝐦 𝐭𝐨𝐠𝐞𝐭𝐡𝐞𝐫 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐬𝐨𝐧𝐠.\n\n ✖𝐌𝐨𝐬𝐞 ➫ 𝐆𝐞𝐭 𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼ 𝐜𝐨𝐧𝐭𝐚𝐜𝐭.\n\n ✘𝐔𝐧𝐛𝐥𝐨𝐜𝐤 ➫ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞.\n\n ✘𝐘𝐭𝐬 ➫ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬.\n\n ✘𝐌𝐨𝐯𝐢𝐞➫ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬.\n\n✘𝐌𝐢𝐱➫ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬.\n\n ✘𝐀𝐢-𝐢𝐦𝐠➫ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨.\n\n✘𝐆𝐩𝐭 ➫ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n ✘𝐃𝐩➫ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n ✘𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➫ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n✘𝐑𝐮𝐧𝐭𝐢𝐦𝐞➫ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n✘𝐒𝐜𝐫𝐢𝐩𝐭➫ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭.\n\n✘𝐎𝐰𝐧𝐞𝐫  ➫ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭.\n\n✘𝐕𝐚𝐫𝐬 ➫ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n✘𝐏𝐫𝐨𝐦𝐨𝐭𝐞➫ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n✘𝐃𝐞𝐦𝐨𝐭𝐞➫ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫.\n\n𝐃𝐞𝐥𝐞𝐭𝐞➫ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞.\n\n ✘𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤 ➫ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩.\n\n. 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬 ➫ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬.\n\n 𝐂𝐥𝐨𝐬𝐞 ➫ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭.\n\n ✘𝐎𝐩𝐞𝐧 ➫ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩.\n\n ✘𝐈𝐜𝐨𝐧 ➫ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n 𝐒𝐮𝐛𝐣𝐞𝐜𝐭 ➫ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭.\n\n ✘𝐃𝐞𝐬𝐜 ➫ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧.\n\n ✘𝐋𝐞𝐚𝐯𝐞 ➫ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞.\n\n ✘𝐓𝐚𝐠𝐚𝐥𝐥 ➫ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭.\n\n ✘𝐇𝐢𝐝𝐞𝐭𝐚𝐠➫ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲.\n\n ✘𝐑𝐞𝐯𝐨𝐤𝐞 ➫ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤.`,gifPlayback: true }, { quoted: fcontact });
+              client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/b3d43934af51c7460775f.mp4' }, caption: `╭════〘 ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ 〙═⊷⏣\n┃⭓╭──────────────┉◕\n┃⬬│ 𝗢𝘄𝗻𝗲𝗿 :⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓⸼\n┃⭓│ 𝗨𝘀𝗲𝗿 : ${m.pushName}︎︎\n┃⬬│ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :${runtime(process.uptime())}\n┃⭓│ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝐋𝐢𝐧𝐮𝐱\n┃⬬│ 𝗥𝗮𝗺 : 64GB of 256GB\n┃⭓│ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟏.𝟎.𝟏\n┃⬬│ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}\n┃⭓│ 𝗦𝗽𝗲𝗲𝗱 :  *${dreadffedspeed.toFixed(4)}* 𝐌𝐬\n┃⬬│\n┃⭓│▎▍▌▌▉▏▎▌▉▐▏▌\n┃⬬│▎▍▌▌▉▏▎▌▉▐▏▌\n┃⭓│ ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n┃⛥│\n┃╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉⏣\n╰─────────────────⏣\n\n✘𝐀𝐝𝐦𝐢𝐧 ➫ 𝐎𝐰𝐧𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐰𝐡𝐢𝐜𝐡 𝐩𝐫𝐨𝐦𝐨𝐭𝐞𝐬 𝐡𝐢𝐦 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐰𝐡𝐞𝐧 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧.\n\n ✘𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ➫ 𝐎𝐰𝐧𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐭𝐨 𝐬𝐡𝐚𝐫𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐚𝐭 𝐨𝐧𝐜𝐞 𝐢𝐧 𝐦𝐚𝐧𝐲 𝐜𝐡𝐚𝐭𝐬.\n\n ✘𝐉𝐨𝐢𝐧 ➫ 𝐓𝐡𝐞 𝐛𝐨𝐭 𝐣𝐨𝐢𝐧𝐬 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐰𝐡𝐞𝐧 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐝 𝐯𝐚𝐥𝐢𝐝 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤.\n\n ✘𝐁𝐨𝐭𝐩𝐩 ➫  𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐭𝐡𝐞 𝐩𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐛𝐨𝐭.\n\n ✘𝐒𝐞𝐭𝐯𝐚𝐫 ➫ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐡𝐞𝐫𝐨𝐤𝐮 𝐕𝐚𝐫𝐬.\n\n ✘𝐁𝐥𝐨𝐜𝐤 ➫ 𝐁𝐥𝐨𝐜𝐤𝐬 𝐭𝐡𝐞 𝐭𝐚𝐠𝐠𝐞𝐝 𝐮𝐬𝐞𝐫.\n\n ✘𝐊𝐢𝐥𝐥 ➫ 𝐓𝐡𝐞 𝐛𝐨𝐭 𝐰𝐢𝐥𝐥 𝐞𝐧𝐝 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐰𝐢𝐭𝐡𝐢𝐧 5 𝐬𝐞𝐜𝐬.\n\n ✘𝐑𝐞𝐬𝐭𝐚𝐫𝐭 ➫ 𝐁𝐨𝐭 𝐫𝐞𝐬𝐭𝐚𝐫𝐭𝐬.\n\n ✘𝐒𝐭𝐢𝐜𝐤𝐞𝐫 ➫ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐠𝐢𝐟𝐬, 𝐯𝐢𝐝𝐞𝐨𝐬 𝐨𝐫 𝐩𝐡𝐨𝐭𝐨𝐬 𝐢𝐧𝐭𝐨 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐬.\n\n ✘𝐓𝐨𝐢𝐦𝐠 ➫ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨. ✘𝐒𝐦𝐞𝐦𝐞 ➫ 𝐀𝐝𝐝𝐬 𝐜𝐚𝐩𝐭𝐢𝐨𝐧 𝐭𝐨 𝐭𝐡𝐞 𝐪𝐮𝐨𝐭𝐞𝐝 𝐢𝐦𝐚𝐠𝐞 𝐭𝐡𝐞𝐧 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐢𝐭 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫.\n\n 𝐔𝐫𝐥 ➫ 𝐏𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨/𝐢𝐦𝐚𝐠𝐞 𝐥𝐢𝐧𝐤.\n\n ✘𝐑𝐞𝐦𝐢𝐧𝐢 ➫ 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐭𝐨 𝐡𝐝.\n\n ✘𝐐𝐜 ➫ 𝐂𝐨𝐧𝐜𝐞𝐫𝐭𝐬 𝐚 𝐪𝐮𝐨𝐭𝐞𝐝 𝐭𝐞𝐱𝐭 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫.\n\n ✘𝐏𝐥𝐚𝐲 ➫ 𝐁𝐨𝐭 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐚 𝐬𝐨𝐧𝐠 𝐢𝐧 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 𝐟𝐨𝐫𝐦.\n\n ✘𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠 ➫ 𝐓𝐡𝐞 𝐛𝐨𝐭 𝐝𝐞𝐭𝐞𝐜𝐭𝐬 𝐭𝐡𝐞 𝐪𝐮𝐨𝐭𝐞𝐝 𝐯𝐢𝐝𝐞𝐨/𝐚𝐮𝐝𝐢𝐨𝐬 𝐪𝐮𝐚𝐥𝐢𝐭𝐢𝐞𝐬 𝐚𝐧𝐝 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐭𝐡𝐞𝐦 𝐭𝐨𝐠𝐞𝐭𝐡𝐞𝐫 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐬𝐨𝐧𝐠.\n\n ✖ ➫ 𝐆𝐞𝐭 ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓⸼ 𝐜𝐨𝐧𝐭𝐚𝐜𝐭.\n\n ✘𝐔𝐧𝐛𝐥𝐨𝐜𝐤 ➫ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞.\n\n ✘𝐘𝐭𝐬 ➫ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬.\n\n ✘𝐌𝐨𝐯𝐢𝐞➫ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬.\n\n✘𝐌𝐢𝐱➫ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬.\n\n ✘𝐀𝐢-𝐢𝐦𝐠➫ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨.\n\n✘𝐆𝐩𝐭 ➫ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n ✘𝐃𝐩➫ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n ✘𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➫ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n✘𝐑𝐮𝐧𝐭𝐢𝐦𝐞➫ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n✘𝐒𝐜𝐫𝐢𝐩𝐭➫ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭.\n\n✘𝐎𝐰𝐧𝐞𝐫  ➫ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭.\n\n✘𝐕𝐚𝐫𝐬 ➫ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n✘𝐏𝐫𝐨𝐦𝐨𝐭𝐞➫ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n✘𝐃𝐞𝐦𝐨𝐭𝐞➫ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫.\n\n𝐃𝐞𝐥𝐞𝐭𝐞➫ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞.\n\n ✘𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤 ➫ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩.\n\n. 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬 ➫ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬.\n\n 𝐂𝐥𝐨𝐬𝐞 ➫ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭.\n\n ✘𝐎𝐩𝐞𝐧 ➫ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩.\n\n ✘𝐈𝐜𝐨𝐧 ➫ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n 𝐒𝐮𝐛𝐣𝐞𝐜𝐭 ➫ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭.\n\n ✘𝐃𝐞𝐬𝐜 ➫ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧.\n\n ✘𝐋𝐞𝐚𝐯𝐞 ➫ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞.\n\n ✘𝐓𝐚𝐠𝐚𝐥𝐥 ➫ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭.\n\n ✘𝐇𝐢𝐝𝐞𝐭𝐚𝐠➫ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲.\n\n ✘𝐑𝐞𝐯𝐨𝐤𝐞 ➫ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤.`,gifPlayback: true }, { quoted: fcontact });
 
 break;
 		      
-  case "system": 
+  case "7gm": 
   
               client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/7be5be30af32e3d53b415.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐃𝐑𝐄𝐗_𝐀𝐈*\n\n*𝐒𝐏𝐄𝐄𝐃: ${dreadedspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐃𝐫𝐞𝐱*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼`}); 
  break;
 	      
-  case "credits": 
+  case "c3o": 
   
               client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/99be422360f151e7e3719.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Fortunatus Mokaya ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Fortunatusmokaya\n\n𝐃𝐑𝐄𝐗_𝐀𝐈 𝐁𝐎𝐓 シ︎`}); 
  break;
@@ -1654,9 +1644,9 @@ break;
   
 break
   case 'play':
-    case 'play2': {
+    case 'song': {
         if (!text) {
-            reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: 𝙿𝚕𝚊𝚢 𝚂𝚑𝚞𝚜𝚑𝚊 𝙽𝚢𝚊𝚟𝚞 𝚋𝚢 𝙲𝚑𝚛𝚒𝚜𝚝𝚒𝚗𝚊 𝚂𝚞𝚜𝚑𝚘')
+            reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: 𝙿𝚕𝚊𝚢 tum se')
             return;
         }
         try {
@@ -1702,7 +1692,7 @@ break
                         document: fs.readFileSync(`./${randomName}`),
                         mimetype: "audio/mpeg",
                         fileName: titleYt + ".mp3",
-			caption: "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓®",    
+			caption: "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓",    
                     }, {
                         quoted: fcontact 
                     }
@@ -1787,7 +1777,7 @@ case 'yta': {
                         document: fs.readFileSync(`./${randomName}`),
                         mimetype: "audio/mpeg",
                         fileName: titleYt + ".mp3",
-			caption:"𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓®",
+			caption:"𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓",
                     }, {
                         quoted: fcontact
                     }
@@ -1905,7 +1895,7 @@ break;
                 client.sendMessage(
                     from, {
                         video: fs.readFileSync(`./${randomName}`),
-                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐃𝐑𝐄𝐗_𝐀𝐈`,
+                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓`,
                     }, {
                         quoted: m
                     }
@@ -1937,21 +1927,21 @@ break;
 case "ping": case "speed": { 
 
 	await loadings ()
-m.reply (`⭓𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
+m.reply (`⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓\n *${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
    } 
  break; 
   
  case 'runtime':
-		let drex = `𝐃𝐫𝐞𝐱 𝐁𝐨𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+		let drex = `⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
                 client.sendMessage(m.chat, {
                     text: drex,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: '𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝚳𝐃',
-                            body: 'https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v',
-                            thumbnailUrl: 'https://telegra.ph/file/7cf3c490a482f0ae79e02.jpg',
-                            sourceUrl: 'https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v',
+                            title: '⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓',
+                            body: 'https://chat.whatsapp.com/IEiuCpulHKUG6SWnhbsu2h',
+                            thumbnailUrl: 'https://i.imgur.com/Oqa8xcK.jpeg',
+                            sourceUrl: 'https://chat.whatsapp.com/IEiuCpulHKUG6SWnhbsu2h',
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -1963,7 +1953,7 @@ m.reply (`⭓𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* 𝐌𝐬`);
 
 case "alive": { 
   
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/5e29ca126d7a46aa3aef4.mp4' }, caption: `𝐇𝐞𝐥𝐥𝐨 *${m.pushName}*, 𝐃𝐑𝐄𝐗_𝐀𝐈 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐥𝐢𝐯𝐞 𝐬𝐢𝐧𝐜𝐞 *${runtime(process.uptime())}*,\n\n➥𝐓𝐲𝐩𝐞 ${prefix}𝐦𝐞𝐧𝐮 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐦𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐥𝐢𝐬𝐭.\n➥𝐓𝐲𝐩𝐞 ${prefix}𝐫𝐞𝐩𝐨 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐲 𝐬𝐨𝐮𝐫𝐜𝐞 𝐜𝐨𝐝𝐞.\n➥𝐓𝐲𝐩𝐞 ${prefix}𝐨𝐰𝐧𝐞𝐫 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫.\n\n✘𝐄𝐧𝐣𝐨𝐲 𝐚𝐧𝐝 𝐇𝐚𝐯𝐞 𝐟𝐮𝐧 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐛𝐨𝐭.\n✘𝐌𝐚𝐝𝐞 [𝐂𝐥𝐨𝐧𝐞𝐝] 𝐛𝐲 ꪶ ࣩࣩࣩࣩ᪵᪵᪵᪵᪵᪵᪵᪵ࣧࣧ𝐝𝐫𝐞𝐱ꪶ ࣩࣧࣧ`,gifPlayback: true }, { quoted: m });
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/Oqa8xcK.jpeg' }, caption: `𝐇𝐞𝐥𝐥𝐨 *${m.pushName}*, 𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐥𝐢𝐯𝐞 𝐬𝐢𝐧𝐜𝐞 *${runtime(process.uptime())}*,\n\n➥𝐓𝐲𝐩𝐞 ${prefix}𝐦𝐞𝐧𝐮 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐦𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐥𝐢𝐬𝐭.\n➥𝐓𝐲𝐩𝐞 ${prefix}𝐫𝐞𝐩𝐨 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐲 𝐬𝐨𝐮𝐫𝐜𝐞 𝐜𝐨𝐝𝐞.\n➥𝐓𝐲𝐩𝐞 ${prefix}𝐨𝐰𝐧𝐞𝐫 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫.\n\n✘𝐄𝐧𝐣𝐨𝐲 𝐚𝐧𝐝 𝐇𝐚𝐯𝐞 𝐟𝐮𝐧 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐛𝐨𝐭.\n✘𝐌𝐚𝐝𝐞  𝐛𝐲 ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ ࣩࣩࣩࣩ᪵᪵᪵᪵᪵᪵ࣧࣧ `,gifPlayback: true }, { quoted: m });
  }
 break;
 case 'apk': {
@@ -2140,10 +2130,10 @@ case "movie":
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `*_</ 𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
+             let txt = `*_</ 𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
              await client.sendMessage(i, { 
                  image: { 
-                     url: "https://telegra.ph/file/7a47ec78083fc40e5208d.jpg" 
+                     url: "https://i.imgur.com/Oqa8xcK.jpeg" 
                  }, 
                  caption: `${txt}` 
              }) 
@@ -2218,10 +2208,10 @@ case "movie":
             break;
 			
  
-        case "gpt": case "g": 
+        case "gpt": case "anjan": 
           
 
-            if (!text) return reply("Hello am 𝐃𝐑𝐄𝐗 an Ai developed by 𝕯⃟𝗮𝗿𝗸_𝗜𝗻𝘁𝗲𝗻𝘁⃟ꦿ⸼, how can I help you today?");
+            if (!text) return reply("Hello am ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓ an Ai developed by ⬬𝙈𝘼𝙎𝙏𝙀𝙍𐎓𝙈𝙄𝙉𝘿⭓⸼, how can I help you today?");
 
            const configuration = new Configuration({
 
